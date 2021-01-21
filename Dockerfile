@@ -1,4 +1,4 @@
-FROM docker.elastic.co/logstash/logstash-oss:6.3.2
+FROM logstash:7.10.1
 MAINTAINER hmcho <hmcho@quarry.kr>
 
 LABEL Description="logstash with UUID plugin"
