@@ -1,4 +1,4 @@
-FROM docker.elastic.co/logstash/logstash-oss:6.3.2
+FROM docker.elastic.co/logstash/logstash-oss:7.11.1
 MAINTAINER hmcho <hmcho@quarry.kr>
 
 LABEL Description="logstash 6.3.2  with UUID, Prune plugins"
