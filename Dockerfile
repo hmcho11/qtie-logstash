@@ -1,7 +1,7 @@
-FROM docker.elastic.co/logstash/logstash-oss:7.11.1
+FROM docker.elastic.co/logstash/logstash-oss:7.13.4
 MAINTAINER hmcho <hmcho@quarry.kr>
 
-LABEL Description="logstash 7.11.1  with UUID, Prune plugins"
+LABEL Description="logstash 7.13.4  with UUID, Prune plugins"
 
 RUN /opt/logstash/bin/logstash-plugin install logstash-filter-uuid
 
